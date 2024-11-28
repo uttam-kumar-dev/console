@@ -2,7 +2,10 @@ A simple browser based Mock terminal. I have created this terminal for fun, and 
 
 if you want to register your own commands, just use
 
-```registerCommand('command_name', { 'callable': A_FUNCTION, 'description': 'command description' });```
+```
+registerCommand('command_name', { 'callable': A_FUNCTION, 'description': 'command description' });
+
+```
 
 That's it.
 
@@ -18,3 +21,5 @@ function my_callback(){
 ```
 
 I am using this terminal for one of my website where user login to their account using this terminal.
+
+You can also use UP and DOWN arrow to see your previous commands.
