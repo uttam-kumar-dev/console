@@ -1,0 +1,17 @@
+.cmd-line {
+    display: flex;
+}
+
+.cmd-line input:focus {
+    border: 0;
+    outline: none;
+    color: #fff;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cmd-line p {
+    width: fit-content;
+}
